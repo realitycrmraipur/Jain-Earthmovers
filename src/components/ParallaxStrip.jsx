@@ -15,7 +15,7 @@ export default function ParallaxStrip({ children }) {
       const r = el.getBoundingClientRect()
       const vh = window.innerHeight
       const p = Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height)))   // 0..1 travelling through viewport
-      if (videoRef.current) videoRef.current.style.transform = `translate3d(0,${((p - 0.5) * 12).toFixed(2)}%,0) scale(1.24)`
+      if (videoRef.current) videoRef.current.style.transform = `translate3d(0,${((p - 0.5) * 7).toFixed(2)}%,0) scale(1.12)`
     }
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(update) }
     update()
