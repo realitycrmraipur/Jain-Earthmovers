@@ -19,12 +19,14 @@ export default function Home() {
   useEffect(() => {
     const el = heroRef.current
     if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    let raf = 0
+    let raf = 0, started = false
     const update = () => {
       raf = 0
       const r = el.getBoundingClientRect()
       const total = r.height - window.innerHeight
       const p = total > 0 ? clamp(-r.top / total, 0, 1) : 0
+      // play the clip once, forward, the first time the user scrolls into the hero (then it freezes at the end)
+      if (!started && p > 0.008 && videoRef.current) { started = true; videoRef.current.play().catch(() => {}) }
       if (videoRef.current) videoRef.current.style.transform = `translate3d(0,${(p * 5).toFixed(2)}%,0) scale(${(1.04 + p * 0.1).toFixed(3)})`
       if (copyRef.current) {
         copyRef.current.style.transform = `translate3d(0,${(-p * 42).toFixed(1)}px,0)`
@@ -43,8 +45,8 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <section className="hero" ref={heroRef}>
         <div className="hero-stage">
-          <video ref={videoRef} className="hero-video" src="./hero.mp4" poster="./hero-poster.jpg"
-            autoPlay muted loop playsInline aria-hidden="true" />
+          <video ref={videoRef} className="hero-video" src="./hero.mp4?v=3" poster="./hero-poster.jpg?v=3"
+            muted playsInline preload="auto" aria-hidden="true" />
           <div className="hero-ember" aria-hidden="true" />
           <div className="hero-veil" />
           <div className="hero-grid-bg" />
