@@ -40,15 +40,15 @@ export const cta = {
 
 /* Contact details — REPLACE with real values */
 export const contact = {
-  phonePrimary: '+91 98XXX XXXXX',
-  phoneSecondary: '+91 97XXX XXXXX',
-  whatsapp: '+91 98XXX XXXXX',
+  phonePrimary: '+91 95841 88888',
+  phoneSecondary: '+91 94792 88888',
+  whatsapp: '+91 94792 88888',
   email: 'info@jainearthmovers.in',
   emailSales: 'sales@jainearthmovers.in',
   addressLines: [
     'Jain Earthmovers',
-    'Plot No. 00, [Industrial Area]',
-    '[City], [State] – 000000',
+    '18 Recreation Road, Choubey Colony',
+    'Raipur, Chhattisgarh – 492001',
     'India',
   ],
   hours: [
@@ -69,7 +69,7 @@ export const hero = {
   kicker: 'Hydraulic Excavation · Concrete · Contracts',
   titleLines: ['We Move', 'The Earth.'],
   subtitle:
-    'From 140 and 210-tonne hydraulic excavators to Ajax self-loading concrete mixers, Jain Earthmovers powers mining, infrastructure and large-site construction across the region.',
+    'From 14 and 21-tonne hydraulic excavators to Ajax self-loading concrete mixers, Jain Earthmovers powers mining, infrastructure and large-site construction across the region.',
   scrollHint: 'Scroll to dig in',
 }
 
@@ -96,7 +96,7 @@ export const services = [
     icon: 'mountain',
     title: 'Mining & Overburden Removal',
     blurb:
-      'Mining-grade 140T and 210T excavators for overburden stripping, bench formation and high-volume material handling.',
+      'Mining-grade 14T and 21T excavators for overburden stripping, bench formation and high-volume material handling.',
     points: ['Overburden stripping', 'Bench & haul-road formation', '24×7 deployment'],
   },
   {
@@ -144,11 +144,11 @@ export const equipment = {
       id: 'exc-140',
       name: 'JE-140 Hydraulic Excavator',
       type: 'Hydraulic Excavator',
-      badge: '140-Tonne Class',
+      badge: '14-Tonne Class',
       image: '',
       tagline: 'Mining-grade digging power for high-volume earthwork.',
       specs: [
-        { label: 'Operating Weight', value: '140 t' },
+        { label: 'Operating Weight', value: '14 t' },
         { label: 'Engine Power', value: '760 hp (567 kW)' },
         { label: 'Bucket Capacity', value: '6.7 m³' },
         { label: 'Max Digging Depth', value: '7.9 m' },
@@ -161,11 +161,11 @@ export const equipment = {
       id: 'exc-210',
       name: 'JE-210 Hydraulic Excavator',
       type: 'Hydraulic Excavator',
-      badge: '210-Tonne Class',
+      badge: '21-Tonne Class',
       image: '',
       tagline: 'Maximum output for overburden and mass excavation.',
       specs: [
-        { label: 'Operating Weight', value: '210 t' },
+        { label: 'Operating Weight', value: '21 t' },
         { label: 'Engine Power', value: '1,180 hp (880 kW)' },
         { label: 'Bucket Capacity', value: '12.0 m³' },
         { label: 'Max Digging Depth', value: '8.9 m' },
@@ -178,11 +178,11 @@ export const equipment = {
       id: 'ajax-argo',
       name: 'Ajax ARGO 4000',
       type: 'Self-Loading Concrete Mixer',
-      badge: '4.0 m³ Batch',
+      badge: '4.3 m³ Batch',
       image: '',
       tagline: 'Mobile, self-loading concrete — batched right at the pour.',
       specs: [
-        { label: 'Output per Batch', value: '4.0 m³' },
+        { label: 'Output per Batch', value: '4.3 m³' },
         { label: 'Mixing Output', value: '~28 m³/hr' },
         { label: 'Engine Power', value: '74 hp' },
         { label: 'Drive', value: '4WD self-loading' },
@@ -219,7 +219,7 @@ export const projects = {
   filters: ['All', 'Mining', 'Infrastructure', 'Industrial', 'Concrete'],
   items: [
     { title: 'Highway Embankment Earthworks', category: 'Infrastructure', location: '[City], [State]', year: '2024', metric: '2.4M m³ moved', image: '' },
-    { title: 'Open-cast Overburden Removal', category: 'Mining', location: '[Mine Site]', year: '2023', metric: '210T fleet, 24×7', image: '' },
+    { title: 'Open-cast Overburden Removal', category: 'Mining', location: '[Mine Site]', year: '2023', metric: '21T fleet, 24×7', image: '' },
     { title: 'Industrial Park Site Grading', category: 'Industrial', location: '[Industrial Area]', year: '2024', metric: '85-acre platform', image: '' },
     { title: 'Township Foundation & Concreting', category: 'Concrete', location: '[City]', year: '2023', metric: '9,000 m³ poured', image: '' },
     { title: 'Canal & Drainage Excavation', category: 'Infrastructure', location: '[District]', year: '2022', metric: '14 km alignment', image: '' },
@@ -234,7 +234,7 @@ export const about = {
   lead:
     'Founded by Chitrank Chopra, Jain Earthmovers has grown into a trusted name in heavy excavation and concrete supply — pairing a modern, mining-grade fleet with crews who deliver on time and on spec.',
   paragraphs: [
-    'We specialise in the work most contractors can’t touch: high-volume excavation, overburden removal and large-scale site development driven by 140 and 210-tonne hydraulic excavators.',
+    'We specialise in the work most contractors can’t touch: high-volume excavation, overburden removal and large-scale site development driven by 14 and 21-tonne hydraulic excavators.',
     'Our Ajax self-loading mixers bring consistent, batched concrete straight to the pour, while our contracting team takes on turnkey earthwork mandates from mobilisation to handover.',
     'Every project runs on three commitments: safety first, schedule certainty, and machines that are maintained to keep running when it matters.',
   ],
