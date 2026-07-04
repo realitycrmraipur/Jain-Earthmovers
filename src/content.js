@@ -199,7 +199,7 @@ export const equipment = {
       name: 'Ajax ARGO 4300',
       type: 'Self-Loading Concrete Mixer',
       badge: '4.3 m³ Batch',
-      image: './equipment/ajax-argo-4300.jpg',
+      image: './equipment/ajax-argo-4300.jpg?v=2',
       tagline: 'Mobile, self-loading concrete — batched right at the pour.',
       // Official specs: ajax-engg.com ARGO 4300 SLCM page + ARGO Series brochure
       specs: [
@@ -325,10 +325,11 @@ export const footer = {
     {
       heading: 'Fleet',
       links: [
-        { label: 'SANY SY140 Excavator', to: '/equipment' },
-        { label: 'SANY SY210 Excavator', to: '/equipment' },
-        { label: 'Hyundai 215 Excavator', to: '/equipment' },
-        { label: 'Ajax ARGO Mixers', to: '/equipment' },
+        { label: 'SANY SY140 Excavator', to: '/equipment#sany-140' },
+        { label: 'SANY SY210 Excavator', to: '/equipment#sany-210' },
+        { label: 'Hyundai 215 Excavator', to: '/equipment#hyundai-215' },
+        { label: 'Ajax ARGO 4300 Mixer', to: '/equipment#ajax-argo-4300' },
+        { label: 'Ajax ARGO 4500 Mixer', to: '/equipment#ajax-argo-4500' },
         { label: 'Equipment Hire', to: '/services' },
       ],
     },

@@ -201,7 +201,7 @@ h1,h2,h3,h4{font-family:var(--h); font-weight:700; line-height:1.04; margin:0; l
 .ph .ph-label svg{width:40px;height:40px;opacity:.6}
 
 /* equipment */
-.equip{display:grid; grid-template-columns:1.05fr 1fr; gap:0; background:var(--bg-2);
+.equip{scroll-margin-top:calc(var(--nav-h) + 16px); display:grid; grid-template-columns:1.05fr 1fr; gap:0; background:var(--bg-2);
   border:1px solid var(--line); border-radius:12px; overflow:hidden}
 .equip:nth-child(even){grid-template-columns:1fr 1.05fr}
 .equip:nth-child(even) .equip-media{order:2}
